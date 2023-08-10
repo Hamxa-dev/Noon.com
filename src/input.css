@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.li {
+  list-style: none;
+}
+.background-yellow {
+  background-color: #feee00;
+}
+.input-box input {
+  padding-left: 3%;
+  width: 650px;
+  height: 40px;
+  border-radius: 10px;
+  border: #0f0f0f;
+}
+.Cairo-arbic {
+  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+.background-c {
+  background: linear-gradient(black, yellow);
+}
+.background-d {
+  background: linear-gradient(yellow, black);
+}
+.align-item {
+  align-items: center;
+}
+.pic-size {
+  width: 700px;
+  height: 100%;
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .input-box input {
+    width: 470px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 2px;
+  }
+  .bars {
+    margin-left: 440%;
+    display: contents;
+  }
+.center{
+  text-align: center;
+}
+  .mq-c {
+    margin-left: 90px;
+    gap: 30px;
+    padding-bottom: 15px;
+  }
+  .mq-ts {
+    font-size: xx-small;
+  }
+  .d-n {
+    display: none;
+  }
+  .mq-h {
+    padding: 6px;
+  }
+  .mq-tc {
+    text-align: center;
+    font-size: larger;
+  }
+  .mq-plr {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .mq-ic {
+    margin-left: 150px;
+  }
+  .mq-nc {
+    margin-left: 40px;
+  }
+  .mq-ss {
+    width: 20%;
+  }
+  .mq-p {
+    width: 146px;
+  }
+
+}
